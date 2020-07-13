@@ -1,8 +1,8 @@
 require 'nokogiri'
 require 'open-uri'
-
+ 
 require_relative './course.rb'
-
+ 
 class Scraper
  
   def get_page
@@ -35,7 +35,4 @@ class Scraper
  
 end
  
-
-
-
-
+Scraper.new.print_courses
